@@ -3,16 +3,13 @@
 
 import * as React from 'react';
 
-import { useSession, signOut }
-  from 'next-auth/react';
-
 import { Box, Menu, MenuItem, Typography, Tooltip, IconButton, Avatar, Link }
   from '@mui/material';
 
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 // Settings for the Profile menu
 const settings = [ 'Profile', 'Log Out' ];
-
 
 /**
  * @function React Component for user's Profile
@@ -32,21 +29,14 @@ export default function UserMenu() {
     setAnchorElUser(null);
   };
 
-  const handleLogOut = async () => {
-    await signOut();
-    setAnchorElUser(null);
-  };
-
-
-  const { data: session, status } = useSession();
-
+  const { user } = useUser();
 
   return (
     <Box sx={{ flexGrow: 0 }}>
       <Tooltip title="Open settings">
         <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-          { session && 
-            <Avatar src={session?.user?.image?.toString()} alt="" />
+          { user && 
+            <Avatar src={user?.image?.toString()} alt="" />
           }
         </IconButton>
       </Tooltip>
@@ -73,7 +63,7 @@ export default function UserMenu() {
           </Typography>
         </MenuItem>
         
-        <MenuItem key={settings[1]} onClick={handleLogOut} >
+        <MenuItem key={settings[1]} component={Link} href={'/api/auth/logout'} >
           <Typography variant="inherit" textAlign="center">
             {settings[1]}
           </Typography>

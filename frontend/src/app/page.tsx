@@ -5,16 +5,17 @@ import Link from 'next/link';
 
 import { Box, Typography, Button, Divider, Stack }
   from '@mui/material'
-import { Login, HowToReg }
+import { Login, Logout, HowToReg }
   from '@mui/icons-material'
 
 import ResponsiveAppBar from './(ui)/app-bar'
-
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 // Links for buttons in app bar on the landing page
 const links = [
-  {name: 'Login', href: '/login', icon: Login},
-  {name: 'Register', href: '/register', icon: HowToReg},
+  {name: 'Login', href: '/api/auth/login', icon: Login},
+  // {name: 'Logout', href: '/api/auth/logout', icon: Logout},
+  {name: 'Register', href: '/api/auth/signup', icon: HowToReg},
 ];
 
 
@@ -23,6 +24,13 @@ const links = [
  * @returns 
  */
 export default function LandingPage() {
+  const { user } = useUser();
+
+  if(user) {
+    links.pop();
+    links.pop();
+    links.push({name: 'Logout', href: '/api/auth/logout', icon: Logout});
+  }
 
   return (
     <>

@@ -1,7 +1,9 @@
-export { default } 
-  from "next-auth/middleware";
+import { withMiddlewareAuthRequired } from "@auth0/nextjs-auth0/edge";
 
-/**
- * Requires user to authenicate before accessing any path under /dashboard or /register
- */
-export const config = { matcher: ['/dashboard/:path*','/register'] }
+export default withMiddlewareAuthRequired();
+
+export const config = {
+  matcher: ["/dashboard/:path*", "/admin"],
+};
+
+

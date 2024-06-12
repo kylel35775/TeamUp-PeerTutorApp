@@ -5,8 +5,7 @@ import * as React from 'react';
 import { useState, useEffect } 
 from 'react';
 
-import { useSession } 
-from 'next-auth/react';
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 import { CssBaseline, Paper, Box, Tab, Tabs, Avatar, Typography, Button, Stepper, Step, StepLabel, Skeleton, Snackbar, Alert, CircularProgress,
          Container }    
@@ -111,7 +110,7 @@ const initialTuteeData: Tutee = {
 };
 
 export default function Registration() {
-  const { data: session, status } = useSession();
+  const { user } = useUser();
 
   // State variables for tutor and tutee data
   const [tutor, setTutor] = useState<Tutor>(initialTutorData);
@@ -133,8 +132,8 @@ export default function Registration() {
   //                   Database Functions                   //                                      
   ////////////////////////////////////////////////////////////
 
-  const {data: tutorResult, isSuccess: tutorFinished, refetch: tutorRefetch } = TableFetch<TutorQuery>("tutor", [session], `email_contains=${session?.user?.email}`);
-  const {data: tuteeResult, isSuccess: tuteeFinished, refetch: tuteeRefetch } = TableFetch<TuteeQuery>("tutee", [session], `email_contains=${session?.user?.email}`);
+  const {data: tutorResult, isSuccess: tutorFinished, refetch: tutorRefetch } = TableFetch<TutorQuery>("tutor", [user], `email_contains=${user?.email}`);
+  const {data: tuteeResult, isSuccess: tuteeFinished, refetch: tuteeRefetch } = TableFetch<TuteeQuery>("tutee", [user], `email_contains=${user?.email}`);
 
   const tutorMutation = TablePush("/tutor");
   const tuteeMutation = TablePush("/tutee");
@@ -272,12 +271,10 @@ export default function Registration() {
    *  Updates the tutor variable with email and picture
    */
   React.useEffect(() => {
-    if (session) {
-      if (session?.user) {
-        setTutor({...tutor, email: session?.user?.email || '', pictureUrl: session?.user?.image || ''});
+      if (user) {
+        setTutor({...tutor, email: user?.email || '', pictureUrl: user?.picture || ''});
       }
-    }
-  },[session]);
+  },[user]);
 
   /**
    *  Creates the tutor in the database
@@ -287,14 +284,14 @@ export default function Registration() {
     const tutorCreateData = {
       active_status_name: 'active',
       bio_text: tutor.bioText,
-      email: session?.user?.email,
+      email: user?.email,
       first_name: tutor.firstName,
       last_name: tutor.lastName,
       listing_title: tutor.listingTitle,
       major_abbreviation: tutor.majorAbbreviation,
       pay_rate: tutor.payRate,
       phone_number: tutor.phoneNumber,
-      picture_url: session?.user?.image,
+        picture_url: user?.picture,
       seniority_name: tutor.seniorityName,
       transcript: transcript,
 
@@ -411,7 +408,7 @@ export default function Registration() {
       // Create the final object with email and time intervals for each day
       const result: any = {};
     
-      result.tutor_email = session?.user?.email;
+      result.tutor_email = user?.email;
     
       timePreferences.forEach((timePreference) => {
       const { tutorEmail, weekdayName } = timePreference;
@@ -442,11 +439,11 @@ export default function Registration() {
 
     const tuteeCreateData = {
       active_status_name: tutee.activeStatusName,
-      email: session?.user?.email,
+      email: user?.email,
       first_name: tutee.firstName,
       last_name: tutee.lastName,
       major_abbreviation: tutee.majorAbbreviation,
-      picture_url: session?.user?.image,
+      picture_url: user?.picture,
       phone_number: tutee.phoneNumber,
       seniority_name: tutee.seniorityName
     }

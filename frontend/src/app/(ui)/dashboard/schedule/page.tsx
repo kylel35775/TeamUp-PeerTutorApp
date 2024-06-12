@@ -2,8 +2,7 @@
 
 import * as React from 'react';
 
-import { useSession } 
-  from 'next-auth/react';
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { Box, Container, Paper, Stack, Tabs, Tab } 
@@ -72,12 +71,12 @@ const columns: GridColDef[] = [
  * @returns JSX Component for the Schedule Page
  */
 export default function SchedulePage() {
-  const session = useSession();
+  const { user } = useUser();
 
 
   // GET queries for the signed in user's tutor and tutee appointments
-  const { data: tutorAppointments, refetch: tutorRefetch } = TableFetch<AppointmentQuery>("appointment", [session, "tutor"], `tutor_email_contains=${session?.data?.user?.email}`);
-  const { data: tuteeAppointments, refetch: tuteeRefetch } = TableFetch<AppointmentQuery>("appointment", [session, "tutee"], `tutee_email_contains=${session?.data?.user?.email}`);
+  const { data: tutorAppointments, refetch: tutorRefetch } = TableFetch<AppointmentQuery>("appointment", [user, "tutor"], `tutor_email_contains=${user?.email}`);
+  const { data: tuteeAppointments, refetch: tuteeRefetch } = TableFetch<AppointmentQuery>("appointment", [user, "tutee"], `tutee_email_contains=${user?.email}`);
 
 
   // State variable and handler function for changing the current view from schedule to list

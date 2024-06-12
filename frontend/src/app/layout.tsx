@@ -8,8 +8,8 @@ import { ThemeProvider }
 import CssBaseline from '@mui/material/CssBaseline';
 
 import theme from '@/app/(ui)/theme';
-import AuthProvider from '@/app/AuthProvider';
 import QueryProvider from "@/app/QueryProvider";
+import { UserProvider } from "@auth0/nextjs-auth0/client";
 
 import './(ui)/global.css';
 
@@ -37,11 +37,11 @@ export default function RootLayout({
       
       <body>
         <QueryProvider>
-          <AuthProvider>
+          <UserProvider>
             <ThemeProvider theme={ theme }>
               <CssBaseline /> {children}
             </ThemeProvider>
-          </AuthProvider>
+          </UserProvider>
         </QueryProvider>
       </body>
     </html>

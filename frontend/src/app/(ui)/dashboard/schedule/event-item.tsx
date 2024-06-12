@@ -3,8 +3,7 @@
 
 import * as React from 'react';
 
-import { useSession } 
-  from 'next-auth/react';
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import EmailIcon from '@mui/icons-material/Email';
@@ -73,7 +72,8 @@ export default function EventItem(
   // Data to be displayed on the appointment event
   const appointmentDateOnly = toAppointmentDateOnly(startDate, endDate);
   const appointmentTimeOnly = toAppointmentTimeOnly(startDate, endDate);
-  const sessionEmail = useSession().data?.user?.email;
+  const {user} = useUser();
+  const sessionEmail = user?.email;
   const isCancelled = appointment?.isCancelled;
   const isConfirmed = appointment?.isConfirmed;
   const isPending = !appointment?.isCancelled && !appointment?.isConfirmed;

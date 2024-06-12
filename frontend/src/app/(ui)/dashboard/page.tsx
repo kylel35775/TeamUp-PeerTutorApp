@@ -10,8 +10,7 @@ import { Box, Container, Grid, Stack, Paper, Typography, Dialog, DialogTitle, Di
   Slide, List, Skeleton } 
   from '@mui/material';
 
-import { useSession }
-  from 'next-auth/react';
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 import { TableFetch }
   from '@/app/_lib/data';
@@ -40,11 +39,11 @@ export default function DashboardPage() {
   // State variable for selected pending review
   const [selectedPendingReview, setSelectedPendingReview] = React.useState<PendingReview | null>(null);
 
-  const userEmail = useSession().data?.user?.email;
+  const { user } = useUser();
+  const userEmail = user?.email;
 
   // Get pending reviews for user's profile
   const { data: pendingReviewData, isLoading: loading, refetch } = TableFetch<PendingReview[]>("tutor_review/pending_reviews", [userEmail], `tutee_email=${userEmail}`);
-
 
   return (
     <Box position="relative" sx={{top: 50}}>

@@ -5,7 +5,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert'
 import { Stack, Avatar, Typography, IconButton, Rating, Box, TextField, Button, Divider }
 from '@mui/material';
 
-import { useSession } from 'next-auth/react';
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 import { toDate, toTitleCase } from '@/app/_lib/utils';
 import { TablePush } from '@/app/_lib/data';
@@ -35,9 +35,9 @@ export default function Review(
   const [rating, setRating] = React.useState<number | null>(0);
   const [userReview, setUserReview] = React.useState("");
 
-  const session = useSession();
-    const pfp = session.data?.user?.image ? session.data.user.image : "";
-    const email = session.data?.user?.email ? session.data.user.email : "";
+  const { user } = useUser();
+  const pfp = user?.picture ? user.picture : "";
+  const email = user?.email ? user.email : "";
   const today = new Date();
 
 
@@ -79,7 +79,7 @@ export default function Review(
 
             {/* Tutee Info */}
             <Stack direction="row" alignItems="center" spacing={2} divider={<Divider orientation="vertical" sx={{ height: 20 }} />}>
-              <Typography variant="h6" fontWeight="bold"> {!editable ? toTitleCase(`${review.tuteeFirstName} ${review.tuteeLastName}`) : session?.data?.user?.name} </Typography>
+              <Typography variant="h6" fontWeight="bold"> {!editable ? toTitleCase(`${review.tuteeFirstName} ${review.tuteeLastName}`) : user?.name} </Typography>
                 { !editable && <Typography variant="body1" color="text.secondary"> {review.tuteeMajorAbbreviation.toUpperCase()} </Typography> }
                 { !editable && <Typography variant="body1" color="text.secondary"> {toTitleCase(review.tuteeSeniority)} </Typography> }
             </Stack>

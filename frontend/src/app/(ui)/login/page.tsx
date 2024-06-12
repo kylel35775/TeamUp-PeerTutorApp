@@ -6,8 +6,7 @@ import Link from 'next/link';
 import { useRouter } 
   from "next/navigation"
 
-import { useSession } 
-  from "next-auth/react"
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 import { Container, Box, Avatar, Typography, TextField, FormControlLabel, Checkbox, Button, Paper} 
   from '@mui/material';
@@ -24,14 +23,14 @@ import { TableFetch }
 
 export default function SignIn() {
   ////////////////
-  const session = useSession();
-  const email = session.data?.user?.email;
+  const { user } = useUser();
+  const email = user?.email;
   const route = useRouter();
 
   const { data: tutorData, isSuccess: tutorSuccess } = TableFetch<TutorQuery>("tutor", [email], `email_contains=${email}`);
   const { data: tuteeData, isSuccess: tuteeSuccess } = TableFetch<TuteeQuery>("tutee", [email], `email_contains=${email}`);
 
-  if (session.status === "authenticated" && tutorSuccess && tuteeSuccess) {
+  if (user && tutorSuccess && tuteeSuccess) {
     // If registered as tutor/tutee, redirect to /dashboard
     if (tutorData?.data.length || tuteeData?.length) {
       route.push("/dashboard");
