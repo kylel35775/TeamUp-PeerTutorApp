@@ -3,6 +3,7 @@
 
 
 import * as React from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 import { Paper, Stack, Typography, FormControl, InputLabel, Select, Autocomplete, MenuItem, TextField, Box, Slider, SelectChangeEvent, Divider }
   from '@mui/material';
@@ -68,6 +69,18 @@ export default function TutorFilter(
   }
 ){
   const [slider, setSlider] = React.useState([0, 200]);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Set the major state if the URL contains the major parameter
+  React.useEffect(() => {
+    const majorParam = searchParams.get('major');
+    if (majorParam !== null) {
+      setMajor(majorParam.toUpperCase());
+    } else {
+      setMajor(null); 
+    }
+  }, [searchParams, setMajor]);
   
   // Handler functions for setting state variables
   const handleRateChange = (

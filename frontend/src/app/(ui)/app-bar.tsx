@@ -32,7 +32,6 @@ export default function ResponsiveAppBar({ links, settings } : { links : Link[],
   // State variable for displaying the currently routed page on the navigation bar
   const [tab, setTab] = React.useState(pathToTabIndex[pathname]);
   
-  
   // Handlers for opening and closing the collapsible menu visible in width-condensed mode (When the 'xs' breakpoint is triggered)
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);

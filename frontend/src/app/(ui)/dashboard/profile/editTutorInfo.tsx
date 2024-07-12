@@ -22,16 +22,16 @@ export function EditTutorInfo(
   TableFetch<Major[]>("major", []);
 
   const populateMajorOptions = () => {
-  if (majorData) 
-    return (
-    majorData.map( 
-      (major: Major) => (major.majorAbbreviation.toUpperCase()) 
-    )
-    ).sort( 
-    (a, b) => (-b.localeCompare(a)) 
-    );
+    if (majorData) 
+      return (
+      majorData.map( 
+        (major: Major) => (major.majorAbbreviation.toUpperCase()) 
+      )
+      ).sort( 
+      (a, b) => (-b.localeCompare(a)) 
+      );
 
-  return [];
+    return [];
   };
 
   const handleInputChange = (field: string, newValue: string | number) => {

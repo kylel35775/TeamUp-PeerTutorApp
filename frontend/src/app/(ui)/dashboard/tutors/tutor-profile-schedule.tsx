@@ -2,8 +2,7 @@
 
 import * as React from 'react';
 
-import { useSession }
-  from 'next-auth/react';
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 import { TransitionProps }
   from '@mui/material/transitions';
@@ -54,7 +53,9 @@ export default function TutorProfileSchedule({ tutor } : { tutor: Tutor | null }
   const calendar = React.createRef<FullCalendar>();
   const currentTime = new Date();
   const tutorName = toTitleCase(`${tutor?.firstName} ${tutor?.lastName}`);
-  const tuteeEmail = useSession().data?.user?.email;
+
+  const { user } = useUser();
+  const tuteeEmail = user?.email;
 
   // State variables for selecting a time range on the FullCalendar schedule component and controlling alert popups
   const [selectedTime, setSelectedTime] = React.useState<String[]>();
