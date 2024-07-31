@@ -2,6 +2,7 @@
 
 
 import * as React from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 import ClearIcon from '@mui/icons-material/Clear';
 import SearchIcon from '@mui/icons-material/Search';
@@ -27,14 +28,17 @@ const tutorsPerPageOptions = [ 5, 10, 15 ];
 export default function TutorPage() {
   // State variables for filter fields used in tutor-filter.tsx and 
   const [search, setSearch] = React.useState<string>("");
-    const [searchQuery, setSearchQuery] = React.useState("");
+  const [searchQuery, setSearchQuery] = React.useState("");
   const [sort, setSort] = React.useState("average_rating_descending");
   const [rate, setRate] = React.useState([0, 200]);
   const [major, setMajor] = React.useState<string | null>(null);
   const [course, setCourse] = React.useState<string | null>(null);
   const [seniority, setSeniority] = React.useState<string>("freshman, sophomore, junior, senior, graduate");
   const [selectedTutor, setSelectedTutor] = React.useState<Tutor | null>(null);
-    const [profileOpen, setProfileOpen] = React.useState(false);
+  const [profileOpen, setProfileOpen] = React.useState(false);
+
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
   // State variables and handler functions for pagination
   const [tutorsPerPage, setTutorsPerPage] = React.useState(5);
@@ -52,17 +56,26 @@ export default function TutorPage() {
     setSearch(event.target.value);
   };
 
+  // Set the search state if the URL contains the query parameter
+  React.useEffect(() => {
+    const searchParam = searchParams.get('query');
+    if (searchParam !== null) {
+      setSearchQuery(searchParam);
+    }
+  }, [searchParams, setSearchQuery]);
 
   // Database Fetching
   const { data: tutorData, isLoading: tutorIsLoading, isFetching: tutorIsFetching } = 
-  TableFetch<TutorQuery>("tutor", [tutorsPerPage, page, sort, rate, major, course, seniority, searchQuery], `number_entries_per_page=${tutorsPerPage}`, `page_number=${page}`, 
+  TableFetch<TutorQuery>("tutor", [tutorsPerPage, page, sort, rate, major, course, seniority, searchQuery], 
+    `number_entries_per_page=${tutorsPerPage}`, 
+    `page_number=${page}`, 
     `sort_by=${sort}`,
     `pay_rate_greater_than_or_equals=${rate[0]}`,
     `pay_rate_less_than_or_equals=${rate[1]}`,
-    `course_preference_major_abbreviation_contains=${major ? major : ""}`,
-    `course_preference_number_equals=${course ? course : ""}`,
     `seniority_name_in=${seniority}`,
     `contains=${searchQuery}`,
+    ...(major ? [`course_preference_major_abbreviation_contains=${major}`] : []),
+    ...(course ? [`course_preference_number_equals=${course}`] : []),
   );
   
   // Listen to page or tutorData change. Restrains page number to less than total pages from pagination data

@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore data.ts file
+src/app/_lib/data.ts
+
+# Ignore package-lock.json
+/package-lock.json
+
+# Ignore environment files
+.env

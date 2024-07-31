@@ -157,3 +157,22 @@ export function TuteeInfoChecking (formData: any) {
 
   return('');
 }
+
+export async function AIChatRequest(message) {
+  const aiRequestPath = `/api/ai`;
+  try {
+    const response = await fetch(aiRequestPath, {
+      method: 'POST',
+      body: JSON.stringify({ message }),
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to fetch AI response');
+    }
+
+    const aiResponse = await response.json();
+    return aiResponse.choices[0].message.content;
+  } catch (error) {
+    throw new Error('Failed to fetch AI response');
+  }
+}

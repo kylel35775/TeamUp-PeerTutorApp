@@ -2,8 +2,7 @@
 
 import * as React from 'react';
 
-import { useSession }
-  from 'next-auth/react';
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 import { Skeleton, Button, Typography, Avatar, Paper, Tab, Tabs, Snackbar, Alert, CircularProgress } 
   from '@mui/material';
@@ -66,7 +65,7 @@ const initialTuteeProfileData: Tutee = {
  * @returns JSX Component for Profile Page
  */
 export default function ProfilePage() {
-  const { data: session, status } = useSession();
+  const { user } = useUser();
 
   // State variables for showing things on the page
   const [tab, setTab] = React.useState(0);
@@ -94,10 +93,10 @@ export default function ProfilePage() {
   /////////////////////////////////////////////////////////////////////////////////////////////
 
   const { data: tutorData, isLoading: tutorIsLoading, isFetching: tutorIsFetching, isSuccess: tutorIsSuccess, refetch: tutorRefetch } = 
-  TableFetch<TutorQuery>("tutor", [session], `email_contains=${session?.user?.email}`);
+  TableFetch<TutorQuery>("tutor", [user], `email_contains=${user?.email}`);
   
   const { data: tuteeData, isLoading: tuteeIsLoading, isFetching: tuteeIsFetching, isSuccess: tuteeIsSuccess, refetch: tuteeRefetch } = 
-  TableFetch<TuteeQuery>("tutee", [session], `email_contains=${session?.user?.email}`);
+  TableFetch<TuteeQuery>("tutee", [user], `email_contains=${user?.email}`);
   
   const tutorMutationUpdate = TablePush("/tutor/update");
   const tutorTimeMutationUpdate = TablePush("/tutor_time_preference/update");
@@ -358,7 +357,7 @@ export default function ProfilePage() {
       // Create the final object with email and time intervals for each day
       const result: any = {};
     
-      result.tutor_email = session?.user?.email;
+      result.tutor_email = user?.email;
     
       timePreferences.forEach((timePreference) => {
       const { tutorEmail, weekdayName } = timePreference;
@@ -408,7 +407,7 @@ export default function ProfilePage() {
   return (
   <div style={{ paddingTop: '30px'}}>
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-    <Avatar src={session?.user?.image?.toString()} alt="" style={{ marginRight: '10px' }} />
+    <Avatar src={user?.image?.toString()} alt="" style={{ marginRight: '10px' }} />
     <Typography variant="h4" gutterBottom>
       My Profile
     </Typography>

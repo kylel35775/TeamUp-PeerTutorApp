@@ -1,75 +1,75 @@
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorPendingReviewModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuCourse\TamuCourseService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\paginationContainer\PaginationContainerModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuMajor\TamuMajorService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuCourse\TamuCourseModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\DatabaseApiApplication.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\WebConfig.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuMajor\TamuMajorModel.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeController.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseMapper.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorService.java
-C:\Users\Brandon\Documents\College\13 - Senior+ Spring Semester\CSCE 482 - Capstone\06 - Code\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuCourse\TamuCourseService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\DatabaseApiApplication.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\weekday\WeekdayMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorLocationPreference\TutorLocationPreferenceService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\WebConfig.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuMajor\TamuMajorModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\seniority\SeniorityMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorPendingReviewModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuCourse\TamuCourseModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutor\TutorService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorEligibleCourse\TutorEligibleCourseModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorTimePreference\TutorTimePreferenceModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutee\TuteeService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\major\MajorController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\tamuMajor\TamuMajorService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\paginationContainer\PaginationContainerModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\course\CourseController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationController.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointment\AppointmentService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorCoursePreference\TutorCoursePreferenceModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\util\tamuMajorAndCourse\TamuMajorAndCourseService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\userActiveStatus\UserActiveStatusMapper.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\appointmentSize\AppointmentSizeModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\location\LocationService.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\tutorReview\TutorReviewModel.java
+C:\Users\teres\IdeaProjects\TeamUp-PeerTutorApp\backend\databaseAPI\databaseAPI\databaseAPI\src\main\java\xyz\tamutheo\databaseAPI\rating\RatingService.java
